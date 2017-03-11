@@ -17,7 +17,7 @@
             "src/Yar/"
         ],
         "files": [
-            "Xhprof/xhprof.php"
+            "src/Xhprof/xhprof.php"
         ]
     }
 }
