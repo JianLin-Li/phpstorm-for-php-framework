@@ -57,3 +57,5 @@ shixinke
 邮箱：<ishixinke@qq.com>
 
 博客：<http://www.shixinke.com>
+
+本项目由 [shixinke](https://github.com/shixinke/phpstorm-for-php-framework) 开发，此fork仅增加composer支持
