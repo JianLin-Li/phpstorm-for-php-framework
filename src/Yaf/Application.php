@@ -101,10 +101,10 @@ final class Application
      * @example 
      * @param callable $entry (Yaf >= 3.0.2)
 运行回调函数，一般在命令行模式下运行.
-     * @param  mixed $... 
+     * @param  mixed ...$params
      * @return 
      */
-    public function execute(Callable $entry, $...)
+    public function execute(Callable $entry, ...$params)
     {
     }
 
