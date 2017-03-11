@@ -17,6 +17,7 @@ final class Application
      * (Yaf >= 3.0.2)
      * 全局配置实例
      * @access protected
+     */
     protected $config;
 
     /**
@@ -24,6 +25,7 @@ final class Application
      * (Yaf >= 3.0.2)
      * YafX_Dispatcher实例,即分发器.
      * @access protected
+     */
     protected $dispatcher;
 
     /**
@@ -31,6 +33,7 @@ final class Application
      * (Yaf >= 3.0.2)
      * 过特殊的方式实现了单例模式, 此属性保存当前实例.
      * @access protected
+     */
     protected static  $_app;
 
     /**
@@ -38,6 +41,7 @@ final class Application
      * (Yaf >= 3.0.2)
      * 存在的模块名, 从配置文件中ap.modules读取.
      * @access protected
+     */
     protected $_modules;
 
     /**
@@ -45,6 +49,7 @@ final class Application
      * (Yaf >= 3.0.2)
      * 指明当前的YafX_Application是否已经运行.
      * @access protected
+     */
     protected $_running    =    '';
 
     /**
@@ -53,6 +58,7 @@ final class Application
      * 前的环境名, 也就是YafX_Application在读取配置的时候, 获取的配置节名字.
      * 注：此值只能在Yaf扩展级的配置文件.ini里面进行修改，默认为product.
      * @access protected
+     */
     protected $_environ    =    'dev';
 
     /**
@@ -60,6 +66,7 @@ final class Application
      * (Yaf >= 3.0.2)
      * 最近一次发生的错误代码.
      * @access protected
+     */
     protected $_err_no    =    0;
 
     /**
@@ -67,6 +74,7 @@ final class Application
      * (Yaf >= 3.0.2)
      * 最近一次产生的错误信息.
      * @access protected
+     */
     protected $_err_msg    =    '';
 
     /**
