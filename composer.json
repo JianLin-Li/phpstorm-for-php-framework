@@ -1,0 +1,23 @@
+{
+    "name": "kkguan/ide-helper",
+    "description": "Yaf、Yar、Yac、Yaconf、Redis、Swoole等框架或C扩展代码自动补全",
+    "type": "library",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Swoole\\": "Swoole/",
+            "Yaf\\": "Yaf/"
+        },
+        "classmap": [
+            "src/SeasLog/",
+            "src/Redis/",
+            "src/Msgpack/",
+            "src/Yac/",
+            "src/Yaconf/",
+            "src/Yar/"
+        ],
+        "files": [
+            "Xhprof/xhprof.php"
+        ]
+    }
+}
